@@ -5,18 +5,18 @@
 
 # Compile & Run
 Compile:
-$```bash
+```bash
  g++ main.cpp sources/*.cpp -o game -lsfml-network -lsfml-graphics -lsfml-window -lsfml-system -lGL -lsfml-audio
 ```
 Run:
-$```bash
+```bash
 ./game
 ```
 ## or
 Give execution permission:.
-$ ```bash
+```bash
 chmod +x compile.sh
 Run compile script:
-$ ```bash
+```bash
 ./compile.sh
 ```
