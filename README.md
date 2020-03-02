@@ -1,7 +1,7 @@
 # engine
 
 # Libraries
-libsfml-dev
+`libsfml-dev`
 
 # Compile & Run
 ```bash
