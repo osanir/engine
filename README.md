@@ -4,12 +4,19 @@
 `libsfml-dev`
 
 # Compile & Run
-```bash
-$ g++ main.cpp sources/*.cpp -o game -lsfml-network -lsfml-graphics -lsfml-window -lsfml-system -lGL -lsfml-audio
-$ ./game
+Compile:
+$```bash
+ g++ main.cpp sources/*.cpp -o game -lsfml-network -lsfml-graphics -lsfml-window -lsfml-system -lGL -lsfml-audio
 ```
-or
-```bash
-$ chmod +x compile.sh
-$ ./compile.sh
+Run:
+$```bash
+./game
+```
+## or
+Give execution permission:.
+$ ```bash
+chmod +x compile.sh
+Run compile script:
+$ ```bash
+./compile.sh
 ```
