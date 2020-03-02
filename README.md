@@ -16,6 +16,7 @@ Run:
 Give execution permission:.
 ```bash
 chmod +x compile.sh
+```
 Run compile script:
 ```bash
 ./compile.sh
