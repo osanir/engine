@@ -49,7 +49,6 @@ private:
 	sf::Vector2f size;
 	float angle; // 0-360
 	int opacity; // 0-100
-	int UID;
 	bool visible = true;
-
+	//int UID;
 };

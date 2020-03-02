@@ -2,7 +2,10 @@
 
 Object::Object(){
 	setPosition(sf::Vector2f(0,0));
-	
+	setSize(sf::Vector2f(64,64));
+	setAngle(0);
+	setOpacity(100);
+	setVisible(true);
 }
 
 void Object::moveAtAngle(){
