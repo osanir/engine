@@ -1,6 +1,6 @@
 #include "../headers/game.h"
 
-Game::Game() : window(VideoMode(800,600), "Engine"){
+Game::Game() : window(VideoMode(854,480), "Engine"){
 
 }
 
