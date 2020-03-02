@@ -1,7 +1,6 @@
 #include <SFML/System.hpp>
 #include <vector>
 #include <string>
-#include "variable.h"
 
 class Object{
 public:
@@ -45,12 +44,6 @@ public:
 	void setVisible(bool newVisible); 
 	bool getVisible();
 
-	////// INSTANCE VARIABLES //////
-	void createInstanceVariable(std::string variableName, float value);
-	void createInstanceVariable(std::string variableName, std::string value);
-	void createInstanceVariable(std::string variableName, bool value);
-
-	void printVariables();
 private:
 	sf::Vector2f position;	
 	sf::Vector2f size;
@@ -59,5 +52,4 @@ private:
 	int UID;
 	bool visible = true;
 
-	std::vector<Variable> instanceVariables;
 };

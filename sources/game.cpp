@@ -1,4 +1,4 @@
-#include "game.h"
+#include "../headers/game.h"
 
 Game::Game() : window(VideoMode(800,600), "Engine"){
 
@@ -24,7 +24,7 @@ void Game::processEvents(){
                 break;
         }
 		if(event.key.code == Keyboard::Space){
-			myObject.
+
 		}
 	}
 }

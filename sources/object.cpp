@@ -1,4 +1,4 @@
-#include "object.h"
+#include "../headers/object.h"
 
 Object::Object(){
 	setPosition(sf::Vector2f(0,0));
@@ -99,28 +99,4 @@ void Object::setVisible(bool newVisible){
 
 bool Object::getVisible(){
 	return visible;
-}
-
-
-////// INSTANCE VARIABLES //////
-
-void Object::createInstanceVariable(std::string variableName, float value){
-	VariableNumber variable(variableName, value);
-	instanceVariables.push_back(variable);
-}
-
-void Object::createInstanceVariable(std::string variableName, std::string value){
-	VariableString variable(variableName, value);
-	instanceVariables.push_back(variable);
-}
-
-void Object::createInstanceVariable(std::string variableName, bool value){
-	VariableBoolean variable(variableName, value);
-	instanceVariables.push_back(variable);
-}
-
-void Object::printVariables(){
-	for(auto var : instanceVariables){
-		var.
-	}
 }
