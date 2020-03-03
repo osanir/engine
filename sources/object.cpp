@@ -47,6 +47,13 @@ float Object::getY(){
 	return position.y;
 }
 
+void Object::moveAtAngle(){
+	// TODO: Fill
+}
+
+void Object::moveForward(){
+	// TODO: Fill
+}
 
 ////// SIZE //////
 
@@ -74,6 +81,9 @@ float Object::getHeight(){
 	return size.y;
 }
 
+void Object::setScale(){
+	// TODO: Fill
+}
 
 ////// ANGLE //////
 
@@ -83,6 +93,22 @@ void Object::setAngle(float newAngle){
 
 float Object::getAngle(){
 	return angle;
+}
+
+void Object::rotateClockwise(float degrees){
+	// TODO: Fill
+}
+
+void Object::rotateTowardAngle(float degrees, float angle){
+	// TODO: Fill
+}
+
+void Object::rotateTowardPosition(float degress, float x, float y){
+	// TODO: Fill
+}
+
+void Object::setAngleTowardPosition(float x, float y){
+	// TODO: Fill
 }
 
 

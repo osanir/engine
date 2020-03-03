@@ -6,15 +6,6 @@ class Object{
 public:
 	Object();
 	
-	// TODO
-	void setScale();
-	void moveAtAngle();	
-	void moveForward();
-	void rotateClockwise(float degrees);
-	void rotateTowardAngle(float degrees, float angle);
-	void rotateTowardPosition(float degress, float x, float y);
-	void setAngleTowardPosition(float x, float y);
-
 	////// POSITION //////
 	void setPositionToAnotherObject(Object &otherObject);
 	void setPosition(sf::Vector2f newPosition);
@@ -23,6 +14,8 @@ public:
 	float getX();
 	void setY(float newY);
 	float getY();
+	void moveAtAngle();	
+	void moveForward();
 
 
 	////// SIZE //////
@@ -32,11 +25,16 @@ public:
 	float getWidth();
 	void setHeight(float newHeight);
 	float getHeight();
+	void setScale();
 
 
 	////// ANGLE //////
 	void setAngle(float newAngle);
 	float getAngle();
+	void rotateClockwise(float degrees);
+	void rotateTowardAngle(float degrees, float angle);
+	void rotateTowardPosition(float degress, float x, float y);
+	void setAngleTowardPosition(float x, float y);
 
 	////// APPEARANCE //////
 	void setOpacity(int newOpacity);
