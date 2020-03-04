@@ -1,4 +1,4 @@
-#include "../headers/object.h"
+#include "../include/object.h"
 
 Object::Object(){
 	setPosition(sf::Vector2f(0,0));
@@ -7,15 +7,6 @@ Object::Object(){
 	setOpacity(100);
 	setVisible(true);
 }
-
-void Object::moveAtAngle(){
-	// TODO: Fill
-}
-
-void Object::moveForward(){
-	// TODO: Fill
-}
-
 
 ////// POSITION //////
 
@@ -96,7 +87,7 @@ float Object::getAngle(){
 }
 
 void Object::rotateClockwise(float degrees){
-	// TODO: Fill
+	angle += degrees;
 }
 
 void Object::rotateTowardAngle(float degrees, float angle){

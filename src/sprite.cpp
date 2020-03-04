@@ -1,4 +1,4 @@
-#include "../headers/sprite.h"
+#include "../include/sprite.h"
 
 Sprite::Sprite() : Object(){
     collision.setSize(this->getSize());

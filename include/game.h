@@ -1,8 +1,8 @@
+#pragma once
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include "object.h"
-
-using namespace sf;
+#include "sprite.h"
 
 class Game{
 public:
@@ -11,7 +11,7 @@ public:
 	void processEvents();
 	void update();
 	void render();
-	Object myObject;
+	Sprite mySprite;
 private:
-	RenderWindow window;
+	sf::RenderWindow window;
 };

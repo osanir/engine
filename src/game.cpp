@@ -1,6 +1,6 @@
-#include "../headers/game.h"
+#include "../include/game.h"
 
-Game::Game() : window(VideoMode(854,480), "Engine"){
+Game::Game() : window(sf::VideoMode(854,480), "Engine"){
 
 }
 
@@ -13,7 +13,7 @@ void Game::run(){
 }
 
 void Game::processEvents(){
-	Event event;
+	sf::Event event;
 	while(window.pollEvent(event)){
 		// Window close
 		switch (event.type){
@@ -23,7 +23,7 @@ void Game::processEvents(){
             default:
                 break;
         }
-		if(event.key.code == Keyboard::Space){
+		if(event.key.code == sf::Keyboard::Space){
 
 		}
 	}
